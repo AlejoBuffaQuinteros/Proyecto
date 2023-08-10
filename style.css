@@ -23,11 +23,11 @@ img {
    grid-area: head;
 }
 
+
 .header-img{
    width: 7rem;
    filter: brightness(1.2);
 }
-
 .grid {
    background-color: rgb(49, 48, 48);
    min-height: 100vh;
@@ -35,12 +35,13 @@ img {
 
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 0.5fr 1fr 1fr;
+   grid-template-rows: 0.6fr 1fr 1fr 0.1fr;
 
    grid-template-areas:
       "head head head head"
       "logo    logo    catalogo  IniciarSesion"
-      "logo    logo    ofertas  pregF";
+      "logo    logo    ofertas  pregF"
+      "footer footer footer footer";
    grid-gap: 0.2rem;
 }
 
@@ -98,13 +99,19 @@ background-position: center center;
 grid-area: pregF;
 }
 
+.footer{
+   background-color: rgb(255, 51, 0);
+   grid-area: footer;
+}
+
 .grid a:hover{
-   color: rgb(255, 98, 0);
+   color: rgb(255, 51, 0);
    outline: solid 0.12rem;
-   border-color: rgb(235, 106, 0); 
+   border-color: rgb(255, 51, 0); 
    box-shadow: 0 0 1rem rgba(240, 100, 0, 0.598);
    filter: brightness(1);
 }
+
 
 @media (max-width:1023px){
    .grid {
@@ -128,10 +135,10 @@ grid-area: pregF;
    }
 
    .grid a{
-      color: rgb(235, 106, 0);
+      color: rgb(255, 51, 0);
       border-radius: 0.5rem;
       outline: solid 0.12rem;
-      border-color: rgb(235, 106, 0); 
+      border-color: rgb(255, 51, 0); 
       filter: brightness(1);
       
    }
