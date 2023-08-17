@@ -4,40 +4,42 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
-   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>Ropa</title>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   
 </head>
 <body>
    <div class="grid">
       <header class="header">
          <img class="header-img" src="./IMAGENES/logo.png" alt="">
          <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
-            <div class=" navBar container-fluid">
+            <div class="container-fluid">
+               <img src="./IMAGENES/logo.png" width="30" height="25" style="filter: brightness(1.5)" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li>
-                     <a class="navbar-brand nav-link active" href="#">Home</a>
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="navbar-toggler-icon"></span>
-                     </button>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Catalogo</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link active" href="#">Preguntas frecuentes</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link active">Iniciar sesion</a>
-                  </li>
-                </ul>
+                    <li class="nav-item" data-moz-translations-id="0"><a class="nav-link active" aria-current="page" href="./index.html" data-moz-translations-id="1" style="color: rgb(255, 255, 255);filter: brightness(1.5);">Inicio</a></li>
+                  
+                  
+                    <li class="nav-item" data-moz-translations-id="2"><a class="nav-link active" href="./pages/pregFrecuentes.html" data-moz-translations-id="3" style="color: rgb(255, 255, 255);filter: brightness(1.5);">Preguntas frecuentes</a></li>
+                  
+                    
+                    <li class="nav-item" data-moz-translations-id="3"><a class="nav-link active" href="./pages/iniciarSesion.html" data-moz-translations-id="3" style="color: rgb(255, 255, 255);filter: brightness(1.5);">Iniciar sesion</a></li>
+                  </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" style="color: rgb(255, 255, 255); background-color: rgb(255, 85, 0); border-color:rgb(255, 85, 0);" >Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
+
       </header>
             <a class="logo" href="">
                <h1>Sobre nosotros</h1>
@@ -49,9 +51,9 @@
             </a>
             
                <a class="catalogo" href="./pages/zapatillas.html"><h1>Zapatillas</h1></a>
-               <a class="ofertas" href=""><h1>Remeras</h1></a>
-               <a class="iniciar-sesion" href=""><h1>Hoddies</h1></a>
-               <a class="pregF" href=""><h1>Accesorios</h1></a>
+               <a class="ofertas" href="./pages/remeras.html"><h1>Remeras</h1></a>
+               <a class="iniciar-sesion" href="./pages/hoddies.html"><h1>Hoddies</h1></a>
+               <a class="pregF" href="./pages/accesorios.html"><h1>Accesorios</h1></a>
       
             <footer class="footer py-3 rounded-4 ">
                   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -89,4 +91,5 @@
    </div>
       
 </body>
+
 </html>
