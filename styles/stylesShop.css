@@ -18,7 +18,7 @@ nav{
 main{
    background-color: rgba(0, 0, 0, 0.931);
    color: rgb(249, 73, 3);
-   background-image: url(/IMAGENES/ian-schneider-TamMbr4okv4-unsplash.jpg);
+   background-image: url(../IMAGENES/ian-schneider-TamMbr4okv4-unsplash.jpg);
    background-position: center;
    background-size: cover;
 }    
