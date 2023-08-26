@@ -1,0 +1,69 @@
+main{
+   background-color: rgba(0, 0, 0, 0.931);
+   color: $mainColor;
+   background-image: url(../IMAGENES/ian-schneider-TamMbr4okv4-unsplash.jpg);
+   background-position: center;
+   background-size: cover;
+
+   nav{
+      justify-content: center;
+      align-items: center;
+      background-image:url(../IMAGENES/hin-bong-yeung-jF946mh5QrA-unsplash.jpg);
+      background-size: cover;
+      background-position: center center;
+      border-radius: 0.5rem;
+   }
+
+   .info{
+      padding-inline: 2rem;
+      margin-bottom: 2rem;
+      padding-block: 3rem;
+
+      h1{ 
+         display: flex;
+         justify-content: center;
+         color: $mainColor;
+                  
+      }
+    }
+
+    .items{
+      margin-bottom: 0;
+      padding: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+
+      img{ 
+         width: 15rem;
+         height: 20rem;
+         border: 3px solid rgba(255, 255, 255, 0.212); 
+         border-radius: 3rem;
+
+            &:hover{
+               outline: none; 
+               border-color: $mainColor; 
+               box-shadow: 0 0 10px rgb(243, 188, 163);
+               filter: brightness(1.2);
+            }
+      
+      }
+
+      p{
+         display: flex;
+         justify-content: center;
+       }
+   }
+
+   .contenedorForm{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10rem;
+      
+   }
+}    
+

@@ -1,0 +1,15 @@
+footer{
+   background-color: $mainColor;
+
+   a:hover{
+      border-radius: 0.5rem;
+      color: $mainColor;
+     outline: solid 0.12rem;
+     border-color: $mainColor;
+     box-shadow: 0 0 1rem rgba(240, 100, 0, 0.598);
+     filter: brightness(1);
+   }
+   
+    
+}
+

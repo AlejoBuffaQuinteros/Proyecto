@@ -1,0 +1,81 @@
+.grid {
+   background-color: rgb(49, 48, 48);
+   min-height: 100vh;
+
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows:  0.6fr 1fr 1fr 0.1fr;
+
+   grid-template-areas:
+      "head head head head"
+      "logo    logo    zapatillas  hoddies"
+      "logo    logo    remeras  acces"
+      "footer footer footer footer";
+   grid-gap: 0.2rem;
+
+   a{
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0);
+      border-radius: 0.5rem;
+      filter: brightness(0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       
+       &:hover{
+         color: $mainColor;
+         outline: solid 0.12rem;
+         border-color: $mainColor; 
+         box-shadow: 0 0 1rem rgba(240, 100, 0, 0.598);
+         filter: brightness(1);
+      }
+   }
+
+   .logo{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+   }
+
+      .logo{
+         background-image: url(../IMAGENES/maria-fernanda-pissioli-DTZV8WDM1Ho-unsplash.jpg);
+         background-size: cover;
+         background-position: center center;
+         grid-area: logo;
+         }
+         
+         .zapatillas{
+         background-image: url(../IMAGENES/jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg);
+         background-size: cover;
+         background-position: center center;
+         grid-area: zapatillas;
+         
+         }
+         
+         .remeras{
+         background-image: url(../IMAGENES/masaaki-komori-9ugEeqflo70-unsplash.jpg);
+         background-size: cover;
+         background-position: center center;background-color: rgba(165, 42, 42, 0.587);
+         grid-area: remeras;
+         }
+         .hoddies{
+         background-image: url(../IMAGENES/the-ian-ZCoqcrWp9GY-unsplash.jpg);
+         background-size: cover;
+         background-position: center center;
+         grid-area: hoddies;
+         }
+         
+         .accesorios{
+         background-image: url(../IMAGENES/saif71-com-VIKdvmGUhq8-unsplash.jpg);
+         background-size: cover;
+         background-position: center center;
+         grid-area: acces;
+         }
+      
+         .footer{
+            background-color:$mainColor;
+            grid-area: footer;
+         }
+}  

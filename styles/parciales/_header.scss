@@ -1,0 +1,16 @@
+.header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image:url(../IMAGENES/hin-bong-yeung-jF946mh5QrA-unsplash.jpg);
+   background-size: cover;
+   background-position: center center;  
+   border-radius: 0.5rem;
+   grid-area: head;
+
+   .header-img{
+      width: 7rem;
+      filter: brightness(1.2);
+   }
+   
+}

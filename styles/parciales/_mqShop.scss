@@ -1,0 +1,19 @@
+@media (max-width:1023px){
+   .inScn{
+      display: none;
+   }
+   .contenedorForm{
+      padding-block: 75%;
+   }
+
+      form{
+         background-image: url(../IMAGENES/iniciarS.jpg);
+         background-size: cover;
+         background-position: center center;
+         border-radius: 10rem;
+         padding: 8rem;
+         padding-block:14rem;
+         filter: brightness(75%);
+         box-shadow:1px 1px 2rem $mainColor;
+      }
+}
