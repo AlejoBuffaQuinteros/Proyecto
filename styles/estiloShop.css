@@ -12,7 +12,7 @@
 main {
   background-color: rgba(0, 0, 0, 0.931);
   color: rgb(255, 51, 0);
-  background-image: url(../IMAGENES/ian-schneider-TamMbr4okv4-unsplash.jpg);
+  background-image: url(/IMAGENES/bg\ dark.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -87,6 +87,22 @@ footer a:hover {
   border-color: rgb(255, 51, 0);
   box-shadow: 0 0 1rem rgba(240, 100, 0, 0.598);
   filter: brightness(1);
+}
+
+.red-instagram {
+  color: rgb(255, 0, 98);
+}
+
+.red-facebook {
+  color: rgb(38, 0, 255);
+}
+
+.red-twitter {
+  color: rgba(0, 208, 255, 0.959);
+}
+
+.red-whatsapp {
+  color: rgb(17, 182, 17);
 }
 
 @media (max-width: 1023px) {

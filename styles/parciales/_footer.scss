@@ -13,3 +13,17 @@ footer{
     
 }
 
+$redes:(
+   instagram: rgb(255, 0, 98),
+   facebook: rgb(38, 0, 255),
+   twitter: rgba(0, 208, 255, 0.959),
+   whatsapp: rgb(17, 182, 17)
+
+);
+
+@each $redsocial,$colorred in $redes{
+   .red-#{$redsocial} {
+      color: $colorred;
+   }
+
+}
