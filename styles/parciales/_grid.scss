@@ -32,12 +32,12 @@
       }
    }
 
-   .logo{
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      padding: 1rem;
-   }
+      .logo{
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+         padding: 1rem;
+      }
 
       .logo{
          background-image: url(../IMAGENES/maria-fernanda-pissioli-DTZV8WDM1Ho-unsplash.jpg);
@@ -75,7 +75,5 @@
          }
       
          .footer{
-            background-color:$mainColor;
-            grid-area: footer;
-         }
+         grid-area: footer;}
 }  

@@ -1,5 +1,10 @@
 footer{
    background-color: $mainColor;
+   
+
+      a{
+         border-radius: 0.5rem;
+      }
 
    a:hover{
       border-radius: 0.5rem;
@@ -10,20 +15,21 @@ footer{
      filter: brightness(1);
    }
    
-    
-}
-
-$redes:(
-   instagram: rgb(255, 0, 98),
-   facebook: rgb(38, 0, 255),
-   twitter: rgba(0, 208, 255, 0.959),
-   whatsapp: rgb(17, 182, 17)
+   $redes:(
+   instagram: rgb(225, 9, 59),
+   facebook: rgb(22, 57, 253),
+   twitter: rgba(0, 153, 255, 0.98),
+   whatsapp: rgb(9, 169, 9)
 
 );
 
 @each $redsocial,$colorred in $redes{
    .red-#{$redsocial} {
-      color: $colorred;
+      background-color: $colorred;
    }
 
 }
+
+    
+}
+
