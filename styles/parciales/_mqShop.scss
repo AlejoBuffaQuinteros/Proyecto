@@ -1,12 +1,21 @@
 @media (max-width:1023px){
+   .navbar a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+      outline: solid 0.12rem;
+      border-color: rgb(255, 51, 0);
+   
+   }
+
    .inScn{
       display: none;
    }
    .contenedorForm{
       padding-block: 75%;
-   }
 
-      .contenedorForm form{
+      form{
          background-image: url(../IMAGENES/iniciarS.jpg);
          background-size: cover;
          background-position: center center;
@@ -16,4 +25,10 @@
          filter: brightness(75%);
          box-shadow:1px 1px 2rem $mainColor;
       }
+   }
+
+   .buttonnav{
+      background-color:$mainColor;
+   }
+      
 }

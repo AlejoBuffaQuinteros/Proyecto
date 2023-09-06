@@ -34,6 +34,11 @@ main .info h1 {
   justify-content: center;
   color: rgb(255, 51, 0);
 }
+main .info .card {
+  background-color: rgba(0, 0, 0, 0.68);
+  color: rgb(255, 51, 0);
+  margin: 1rem;
+}
 main .items {
   margin-bottom: 0;
   padding: 4rem;
@@ -105,6 +110,14 @@ footer .red-whatsapp {
 }
 
 @media (max-width: 1023px) {
+  .navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    outline: solid 0.12rem;
+    border-color: rgb(255, 51, 0);
+  }
   .inScn {
     display: none;
   }
@@ -120,5 +133,8 @@ footer .red-whatsapp {
     padding-block: 14rem;
     filter: brightness(75%);
     box-shadow: 1px 1px 2rem rgb(255, 51, 0);
+  }
+  .buttonnav {
+    background-color: rgb(255, 51, 0);
   }
 }/*# sourceMappingURL=estiloShop.css.map */

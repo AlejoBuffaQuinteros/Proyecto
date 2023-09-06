@@ -18,14 +18,18 @@
             "footer footer";
           gap: 0.1rem;
 
+          a{
+            color: $mainColor;
+            border-radius: 0.5rem;
+            outline: solid 0.12rem;
+            border-color: $mainColor; 
+            filter: brightness(1);
+   
+         }
    }
-      .grid a{
-         color: $mainColor;
-         border-radius: 0.5rem;
-         outline: solid 0.12rem;
-         border-color: $mainColor; 
-         filter: brightness(1);
 
+      .buttonnav{
+         background-color:$mainColor;
       }
-
+         
 }

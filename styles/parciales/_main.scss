@@ -25,6 +25,12 @@ main{
          color: $mainColor;
                   
       }
+
+      .card{
+         background-color: rgba(0, 0, 0, 0.68);
+         color:$mainColor;
+         margin: 1rem;
+      }
     }
 
     .items{
